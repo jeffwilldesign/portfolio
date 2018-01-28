@@ -1,0 +1,37 @@
+@mixin border-angle-properties() {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 101%;
+  background: white;
+  transform: rotate(-1.8deg);
+}
+
+@mixin border-angle-top($height: 50px, $include-shared-properties: true) {
+  &::before {
+    @if $include-shared-properties { @include border-angle-properties() }
+    top: 0;
+    height: $height;
+    margin-top: -$height / 2;
+  }
+}
+
+@mixin border-angle-bottom($height: 50px, $include-shared-properties: true) {
+  &::after {
+    @if $include-shared-properties { @include border-angle-properties() }
+    bottom: 0;
+    height: $height;
+    margin-bottom: -$height / 2;
+  }
+}
+
+@mixin border-angle-both($height: 50px) {
+  &::before,
+  &::after {
+    @include border-angle-properties()
+  }
+
+  @include border-angle-top($height, false)
+
+  @include border-angle-bottom($height, false)
+}

@@ -1,0 +1,57 @@
+extends(src='layout.sgr')
+  block(name='content')
+    section.intro
+      div.background
+      div.card
+        span.profile
+          img(src='img/profile.jpg' alt='Profile picture')
+        h1 Jeff Will
+        h2 Technologist &amp; Front-end Developer
+        p
+          | I&rsquo;m passionate about creating remarkable and meaningful experiences for users.
+          | As a developer, I&rsquo;m inherently dedicated to spending the time to get the smallest
+          | detail right and I&rsquo;m always experimenting with the next technology.
+
+    section.skills
+      h2 Skills
+      ul
+        li
+          | Front-end web development using web standards (HTML, CSS, JavaScript)
+        li
+          | Cross-browser compatible CSS and JavaScript
+        li
+          | Responsive and mobile-first development
+        li
+          | JavaScript and CSS animation techniques
+        li
+          | Node.js, Ruby, PHP, and SQL
+        li
+          | Open-source CMSes especially Wordpress
+        li
+          | Source control in a team environment using Git
+        li
+          | Command line development tools (Gulp, Yarn, npm, grep to name only a few)
+
+    section.work
+      h2 Work
+      ul
+        each(loop="item of work.items")
+          li
+            h3 {{ item.title }}
+            h4 Client: {{ item.client }}
+            ul.images
+              each(loop="image of item.images")
+                li
+                  img(src={{image}})
+            span.description
+              each(loop="paragraph of item.description")
+                p {{{ paragraph }}}
+
+    footer
+      ul.social-links
+        li
+          a(href="https://github.com/thedarkbit")
+            i.fab.fa-github.fa-2x
+        li
+          a(href="https://www.linkedin.com/in/jeffwillrva")
+            i.fab.fa-linkedin-in.fa-2x

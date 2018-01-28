@@ -1,0 +1,50 @@
+{
+  "name": "portfolio-of-jeff-will",
+  "description": "Portfolio of development work by Jeff Will",
+  "version": "0.0.1",
+  "author": "jeffwilldesign",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/jeffwilldesign/portfolio-of-jeff-will/issues",
+  "dependencies": {
+    "browserslist": "^2.11.3",
+    "lost": "^8.2.0",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
+    "postcss-scss": "^1.0.3",
+    "reshape-standard": "^3.0.0",
+    "sass-loader": "^6.0.6",
+    "spike": "^2.0.0",
+    "spike-css-standards": "^3.0.0",
+    "spike-js-standards": "^2.0.2",
+    "spike-optimize": "^0.1.2",
+    "spike-page-id": "^1.0.0",
+    "spike-records": "^2.2.0",
+    "sugarml": "^0.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "rimraf": "^2.6.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "iOS > 9"
+  ],
+  "homepage": "https://github.com/jeffwilldesign/portfolio-of-jeff-will",
+  "main": "app.js",
+  "private": true,
+  "repository": "https://github.com/jeffwilldesign/portfolio-of-jeff-will",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava",
+    "start": "spike watch",
+    "build": "spike compile",
+    "prod": "NODE_ENV=production spike compile -e production"
+  }
+}
