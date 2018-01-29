@@ -13,7 +13,6 @@ module.exports = {
   devtool: 'source-map',
   matchers: { html: '*(**/)*.sgr', css: '*(**/)*.scss' },
   ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock', 'package-lock.json'],
-  vendor: 'assets/vendor/**',
   module: {
     rules: [{ test: /\.scss/, use: [{ loader: 'sass-loader' }] }]
   },
@@ -35,7 +34,7 @@ module.exports = {
     warnForDuplicates: env !== 'production',
     appendPlugins: lost
   }),
-  entry: { 'js/vendor': ['./assets/js/vendor.js'] },
+  dumpDirs: ['views', 'assets', 'config'],
   babel: jsStandards(),
   server: {
     logLevel: 'info'

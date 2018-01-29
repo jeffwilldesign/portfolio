@@ -38,7 +38,7 @@ extends(src='layout.sgr')
         each(loop="item of work.items")
           li
             h3 {{ item.title }}
-            h4 Client: {{ item.client }}
+            h4 {{ item.client }}
             ul.images
               each(loop="image of item.images")
                 li
