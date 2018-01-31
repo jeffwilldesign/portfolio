@@ -1,8 +1,8 @@
 extends(src='layout.sgr')
   block(name='content')
     section.intro
-      div.background
-      div.card
+      .background
+      .card
         span.profile
           img(src='img/profile.jpg' alt='Profile picture')
         h1 Jeff Will
@@ -37,7 +37,7 @@ extends(src='layout.sgr')
 
       ul.projects
         each(loop="project of work.projects")
-          li
+          li.project
             div.slider.js_slider
               div.frame.js_frame
                 ul.slides.js_slides
@@ -56,10 +56,18 @@ extends(src='layout.sgr')
                 p {{{ paragraph }}}
 
     footer
-      ul.social-links
-        li
-          a(href="https://github.com/thedarkbit")
-            i.fab.fa-github.fa-2x
-        li
-          a(href="https://www.linkedin.com/in/jeffwillrva")
-            i.fab.fa-linkedin-in.fa-2x
+      .inner-content
+        ul.social-links
+          li
+            a(href="https://github.com/thedarkbit")
+              i.fab.fa-github.fa-2x
+          li
+            a(href="https://www.linkedin.com/in/jeffwillrva")
+              i.fab.fa-linkedin-in.fa-2x
+
+        p.fine-print
+          a(href="https://github.com/jeffwilldesign/portfolio")
+            | Site crafted with
+            i.fas.fa-heart
+            | &amp; Spike in RVA
+          span &copy; 2018 Jeff Will
