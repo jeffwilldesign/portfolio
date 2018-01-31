@@ -9,6 +9,7 @@
   "bugs": "https://github.com/jeffwilldesign/portfolio-of-jeff-will/issues",
   "dependencies": {
     "browserslist": "^2.11.3",
+    "lory.js": "^2.3.4",
     "lost": "^8.2.0",
     "node-sass": "^4.7.2",
     "normalize.css": "^7.0.0",

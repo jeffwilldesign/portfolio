@@ -1,12 +1,12 @@
 {
-  "items": [
+  "projects": [
     {
       "title": "Smokey Bear website",
       "client": "USDA Forest Service &amp; the Ad Council",
       "images": [
         "img/work-smokey-001.jpg",
-        "img/work-smokey-001.jpg",
-        "img/work-smokey-002.jpg"
+        "img/work-smokey-002.jpg",
+        "img/work-smokey-003.jpg"
       ],
       "description": [
         "Created in 1944, Smokey Bear&rsquo;s message on wildfire prevention has served as the longest running public service campaign in the nation&rsquo;s history. SJ&amp;P was selected to redesign <a href='https://smokeybear.com/' target='_blank'>SmokeyBear.com</a> based on their displayed understanding of the audience personas, how they obtain information through research and discovery, design of sharable content and application of fluidity to the user experience.",

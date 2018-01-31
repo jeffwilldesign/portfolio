@@ -34,17 +34,25 @@ extends(src='layout.sgr')
 
     section.work
       h2 Work
-      ul
-        each(loop="item of work.items")
+
+      ul.projects
+        each(loop="project of work.projects")
           li
-            h3 {{ item.title }}
-            h4 {{ item.client }}
-            ul.images
-              each(loop="image of item.images")
-                li
-                  img(src={{image}})
+            div.slider.js_slider
+              div.frame.js_frame
+                ul.slides.js_slides
+                  each(loop="image of project.images")
+                    li
+                      img(src={{image}})
+
+              span.prev.js_prev
+                i.fas.fa-chevron-left.fa-3x
+              span.next.js_next
+                i.fas.fa-chevron-right.fa-3x
+            h3 {{ project.title }}
+            h4 {{ project.client }}
             span.description
-              each(loop="paragraph of item.description")
+              each(loop="paragraph of project.description")
                 p {{{ paragraph }}}
 
     footer

@@ -2267,6 +2267,10 @@ es6-weak-map@^2.0.1:
     es6-iterator "^2.0.1"
     es6-symbol "^3.1.1"
 
+es6bindall@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/es6bindall/-/es6bindall-0.0.9.tgz#71e00afa69f8dd59ac5ac898a0d31c978df817d5"
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -4059,6 +4063,10 @@ loose-envify@^1.0.0:
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
     js-tokens "^3.0.0"
+
+lory.js@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/lory.js/-/lory.js-2.3.4.tgz#4974abe1b8240ffffe7a388ec4aa7f047e63e0d6"
 
 lost@^8.2.0:
   version "8.2.0"
@@ -6027,7 +6035,7 @@ reshape-standard@^3.0.0:
     reshape-retext "^1.0.1"
     retext-smartypants "^3.0.1"
 
-reshape@^0.4.1:
+reshape@^0.4.0, reshape@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/reshape/-/reshape-0.4.2.tgz#4626d6b1aeb4e6a81af5b535e1c37d1db8025947"
   dependencies:
@@ -6072,6 +6080,10 @@ resp-modifier@6.0.2:
   dependencies:
     debug "^2.2.0"
     minimatch "^3.0.2"
+
+rest@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/rest/-/rest-2.0.0.tgz#6dfadf66a405c49cfbd5b4bd25b59fd29cd861bc"
 
 restore-cursor@^1.0.1:
   version "1.0.1"
@@ -6646,6 +6658,17 @@ spike-optimize@^0.1.2:
 spike-page-id@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/spike-page-id/-/spike-page-id-1.0.0.tgz#70a48384709aceb8fd449ddf4bff9f4a9b3bcb3c"
+
+spike-records@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/spike-records/-/spike-records-2.2.0.tgz#b09ae0b69da17754df9f275d30e33836ce79d7aa"
+  dependencies:
+    es6bindall "^0.0.9"
+    reshape "^0.4.0"
+    reshape-loader "^1.1.0"
+    rest "^2.0.0"
+    spike-util "^1.3.0"
+    when "^3.7.7"
 
 spike-util@^1.3.0:
   version "1.3.0"

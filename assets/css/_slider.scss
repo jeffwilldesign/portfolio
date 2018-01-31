@@ -1,0 +1,55 @@
+.slider {
+  position: relative;
+}
+
+.frame {
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slides {
+  display: inline-block;
+  width: 100%;
+
+  li {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: $color-neutral;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  display: block;
+  opacity: 0.6;
+  cursor: pointer;
+  background-color: rgba($color-text-white, 0.55);
+  color: #000;
+  padding: 5px 10px;
+  margin-top: calc(-1.5em - 5px);
+  border-radius: 6px;
+  transition: all 0.25s ease-out;
+
+  &:hover {
+    color: color($color-bright shade(15%));
+    opacity: 0.8;
+  }
+}
+
+.prev {
+  left: 8px;
+}
+
+.next {
+  right: 8px;
+}
