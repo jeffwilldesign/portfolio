@@ -69,5 +69,5 @@ extends(src='layout.sgr')
           a(href="https://github.com/jeffwilldesign/portfolio")
             | Site crafted with
             i.fas.fa-heart
-            | &amp; Spike in RVA
+            | and Spike in RVA
           span &copy; 2018 Jeff Will

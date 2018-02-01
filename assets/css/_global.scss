@@ -27,32 +27,48 @@ body {
 
 h1 {
   color: $color-text-neutral;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 300;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+
+  @media (min-width: $mobile-breakpoint) {
+    font-size: 3em;
+  }
 }
 
 h2 {
   color: $color-secondary;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 300;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+
+  @media (min-width: $mobile-breakpoint) {
+    font-size: 3em;
+  }
 }
 
 h3 {
-  font-size: 2.25em;
+  font-size: 1.875em;
   font-weight: 600;
-  letter-spacing: 0.075em;
   text-transform: uppercase;
+
+  @media (min-width: $mobile-breakpoint) {
+    font-size: 2.25em;
+    letter-spacing: 0.075em;
+  }
 }
 
 h4 {
   color: $color-text-light;
   font-size: 1.25em;
   font-weight: 300;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.075em;
+
+  @media (min-width: $mobile-breakpoint) {
+    letter-spacing: 0.15em;
+  }
 }
 
 p {
@@ -91,19 +107,25 @@ a {
     opacity: 0.5;
   }
 
+  $card-margin-mobile: 25px;
+  $card-margin: 50px;
+
   .card {
     position: relative;
     width: 84%;
     max-width: 540px;
     background-color: $color-text-white;
     text-align: center;
-    padding: 30px 50px 50px;
+    padding: 30px $card-margin-mobile 50px;
     border-radius: 6px;
     box-shadow: 4px 4px 10px rgba($color-text-light, 0.35);
-    margin: 30px auto;
+    margin: 30px auto 15px;
 
     @media (min-width: $mobile-breakpoint) {
       width: 76%;
+      padding-left: $card-margin;
+      padding-right: $card-margin;
+      margin-bottom: 30px;
     }
 
     h1 {
@@ -113,9 +135,13 @@ a {
 
     h2 {
       color: $color-text-bright;
-      font-size: 1.5em;
+      font-size: 1.125em;
       letter-spacing: 0.1em;
       margin-top: 0.25em;
+
+      @media (min-width: $mobile-breakpoint) {
+        font-size: 1.5em;
+      }
     }
 
     p {
@@ -140,11 +166,17 @@ a {
       left: 0;
       top: 50%;
       display: block;
-      width: calc(100% + 100px);
+      width: calc(100% + 50px);
       height: 1px;
       background-color: $color-text-light;
-      margin: 0 -50px;
+      margin: 0 (-$card-margin-mobile);
       z-index: -1;
+
+      @media (min-width: $mobile-breakpoint) {
+        width: calc(100% + 100px);
+        margin-left: -$card-margin;
+        margin-right: -$card-margin;
+      }
     }
 
     img {
@@ -161,7 +193,12 @@ a {
 .work {
   width: 84%;
   max-width: 1080px;
-  margin: 90px auto;
+  margin: 60px auto;
+
+  @media (min-width: $mobile-breakpoint) {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
 
   h2 {
     display: inline-block;
@@ -221,7 +258,12 @@ a {
 
   .description {
     display: block;
-    padding: 0 3em;
+    padding: 0 1.25em;
+
+    @media (min-width: $mobile-breakpoint) {
+      padding-left: 3em;
+      padding-right: 3em;
+    }
   }
 }
 
