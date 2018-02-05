@@ -97,14 +97,20 @@ a {
   overflow: hidden;
   margin: 0;
 
+  $animation-time-intro: 1s;
+
   .background {
     @include border-angle-bottom()
 
     position: absolute;
     width: 100%;
-    height: calc(100% - 70px);
+    height: calc(100% - 100px);
     background-image: linear-gradient(60deg, $color-primary 20%, $color-secondary);
     opacity: 0.5;
+
+    &::after {
+      animation: $animation-time-intro rotateBorderAngle ease-out;
+    }
   }
 
   $card-margin-mobile: 25px;
@@ -119,13 +125,14 @@ a {
     padding: 30px $card-margin-mobile 50px;
     border-radius: 6px;
     box-shadow: 4px 4px 10px rgba($color-text-light, 0.35);
-    margin: 30px auto 15px;
+    margin: 30px auto 45px;
+    animation: $animation-time-intro slideUp ease-out;
 
     @media (min-width: $mobile-breakpoint) {
       width: 76%;
       padding-left: $card-margin;
       padding-right: $card-margin;
-      margin-bottom: 30px;
+      margin-bottom: 60px;
     }
 
     h1 {
@@ -209,6 +216,12 @@ a {
 }
 
 .skills {
+  margin-top: 20px;
+
+  @media (min-width: $mobile-breakpoint) {
+    margin-top: 50px;
+  }
+
   li {
     color: $color-text-medium;
     font-size: 1.125em;
@@ -272,7 +285,7 @@ footer {
   overflow: hidden;
   background-color: $color-neutral;
   color: $color-text-white;
-  padding: 60px 0 1em;
+  padding: 60px 0 0.375rem;
 
   @include border-angle-top()
 
@@ -345,11 +358,5 @@ footer {
     .fa-heart {
       margin: 3px 0.35em 0;
     }
-
-    // a + span {
-    //   margin-left: 1em;
-    //   border-left: 1px solid $color-text-light;
-    //   padding-left: 1em;
-    // }
   }
 }

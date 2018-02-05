@@ -46,9 +46,9 @@ extends(src='layout.sgr')
                       img(src={{image}})
 
               span.prev.js_prev
-                i.fas.fa-chevron-left.fa-3x
+                i.fas.fa-chevron-left.fa-2x
               span.next.js_next
-                i.fas.fa-chevron-right.fa-3x
+                i.fas.fa-chevron-right.fa-2x
             h3 {{ project.title }}
             h4 {{ project.client }}
             span.description

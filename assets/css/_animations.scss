@@ -1,0 +1,21 @@
+@keyframes rotateBorderAngle {
+  from {
+    transform: rotate(1.3deg);
+  }
+
+  to {
+    transform: rotate(-1.8deg);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0.1;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
