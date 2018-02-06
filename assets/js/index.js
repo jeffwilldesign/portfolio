@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   for (let slider of sliders) {
     lory(slider, {
-      infinite: 1
+      rewind: true
     })
   }
 })

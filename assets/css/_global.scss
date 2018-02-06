@@ -78,6 +78,10 @@ p {
   line-height: 1.75em;
 }
 
+strong {
+  font-weight: 600;
+}
+
 a {
   color: color($color-text-bright shade(15%));
   text-decoration: none;
@@ -223,7 +227,10 @@ a {
   @media (min-width: $mobile-breakpoint) {
     margin-top: 50px;
   }
+}
 
+.skills,
+.description {
   li {
     color: $color-text-medium;
     font-size: 1.125em;
@@ -239,6 +246,7 @@ a {
   }
 
   h4 {
+    color: $color-text-bright;
     margin-top: 4px;
   }
 
@@ -279,19 +287,46 @@ a {
       padding-left: 3em;
       padding-right: 3em;
     }
+
+    h4 {
+      color: $color-secondary;
+      border-bottom: 1px solid $color-text-medium;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    li {
+      font-weight: 300;
+      margin-left: 1em;
+    }
+
+    li + li {
+      margin-top: 1em;
+    }
+
+    .technology {
+      font-size: 1.125rem;
+      margin: 0;
+    }
   }
 }
 
 .brands {
   margin-top: 60px;
-  border-top: 3px solid $color-secondary;
-  padding-top: 60px;
 
   h3 {
-    color: $color-text-light;
-    font-size: 1.75em;
+    display: inline-block;
+    color: $color-text-medium;
+    font-size: 1.25em;
     font-weight: 300;
-    margin-top: 0;
+    letter-spacing: 0.1em;
+    padding-right: 1.25em;
+    border-bottom: 1px solid $color-text-medium;
+    margin: 0 0 0.375em;
+
+    @media (min-width: $mobile-breakpoint) {
+      font-size: 1.75em;
+    }
   }
 
   ul {

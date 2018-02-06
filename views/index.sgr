@@ -43,30 +43,31 @@ extends(src='layout.sgr')
                 ul.slides.js_slides
                   each(loop="image of project.images")
                     li
-                      img(src={{image}})
+                      img(src={{image.slide}})
 
               span.prev.js_prev
                 i.fas.fa-chevron-left.fa-2x
               span.next.js_next
                 i.fas.fa-chevron-right.fa-2x
+
             h3 {{ project.title }}
             h4 {{ project.client }}
             span.description
               each(loop="paragraph of project.description")
                 p {{{ paragraph }}}
 
-              h4 Awards
-              ul
-                each(loop="award of project.awards")
-                  li {{{ award }}}
+              if(condition="project.awards.length > 0")
+                h4 Awards
+                ul
+                  each(loop="award of project.awards")
+                    li {{{ award }}}
 
               h4 Built With
               p.technology
-                strong
-                  |  {{ project.technology }}
+                |  {{ project.technology }}
 
     section.brands
-      h3 Brands I’ve worked with
+      h2 Clients
       ul
         li
           img(src='img/logos/logo-discovery.png' alt='Discovery logo')

@@ -4,9 +4,16 @@
       "title": "Smokey Bear website",
       "client": "USDA Forest Service &amp; the Ad Council",
       "images": [
-        "img/work-smokey-001.jpg",
-        "img/work-smokey-002.jpg",
-        "img/work-smokey-003.jpg"
+        {
+          "slide": "img/work-smokey-001.jpg",
+          "thumbnail": "img/work-smokey-001-thb.jpg"
+        }, {
+          "slide": "img/work-smokey-002.jpg",
+          "thumbnail": "img/work-smokey-002-thb.jpg"
+        }, {
+          "slide": "img/work-smokey-003.jpg",
+          "thumbnail": "img/work-smokey-003-thb.jpg"
+        }
       ],
       "description": [
         "Created in 1944, Smokey Bear&rsquo;s message on wildfire prevention has served as the longest running public service campaign in the nation&rsquo;s history. SJ&amp;P was selected to redesign <a href='https://smokeybear.com/' target='_blank'>SmokeyBear.com</a> based on their displayed understanding of the audience personas, how they obtain information through research and discovery, design of sharable content and application of fluidity to the user experience.",
@@ -20,15 +27,24 @@
         "2017 <strong>Silver AAF ADDY Award:</strong> Consumer Website",
         "2017 <strong>Silver AAF ADDY Award:</strong> Branded Content &amp; Entertainment Campaign"
       ],
-      "technology": "Node.js, Express, ES6, React, Nunjucks, and Stylus"
+      "technology": "Node.js, Express, ES6, React, Nunjucks and Stylus"
     }, {
       "title": "Marriott Traveler",
       "client": "Marriott",
       "images": [
-        "img/work-traveler-001.jpg",
-        "img/work-traveler-002.jpg",
-        "img/work-traveler-003.jpg",
-        "img/work-traveler-004.jpg"
+        {
+          "slide": "img/work-traveler-001.jpg",
+          "thumbnail": "img/work-traveler-001-thb.jpg"
+        }, {
+          "slide": "img/work-traveler-002.jpg",
+          "thumbnail": "img/work-traveler-002-thb.jpg"
+        }, {
+          "slide": "img/work-traveler-003.jpg",
+          "thumbnail": "img/work-traveler-003-thb.jpg"
+        }, {
+          "slide": "img/work-traveler-004.jpg",
+          "thumbnail": "img/work-traveler-004-thb.jpg"
+        }
       ],
       "description": [
         "With many brands searching to find the sweet spot between engagement and conversion, Marriott International knows the importance of promoting more than just offers. Working to provide more value to its community of travelers, Marriott engaged SJ&amp;P to help them deliver a thoughtful, strategic and creative digital solution to reach travel audiences, especially millennials, using content as the primary driver",
@@ -41,14 +57,21 @@
         "2015 <strong>Gold W3 Award:</strong> General Website - Publishing",
         "2015 <strong>Silver W3 Award:</strong> General Website - Travel"
       ],
-      "technology": "Wordpress, PHP, Roots, Sass, and Bootstrap"
+      "technology": "Wordpress, PHP, Roots, Sass and Bootstrap"
     }, {
       "title": "Level Up: An Epic Swiping Adventure",
       "client": "The National Campaign to Prevent Teen and Unplanned Pregnancy",
       "images": [
-        "img/work-level-up-001.jpg",
-        "img/work-level-up-002.jpg",
-        "img/work-level-up-003.jpg"
+        {
+          "slide": "img/work-level-up-001.jpg",
+          "thumbnail": "img/work-level-up-001-thb.jpg"
+        }, {
+          "slide": "img/work-level-up-002.jpg",
+          "thumbnail": "img/work-level-up-002-thb.jpg"
+        }, {
+          "slide": "img/work-level-up-003.jpg",
+          "thumbnail": "img/work-level-up-003-thb.jpg"
+        }
       ],
       "description": [
         "As part of their work in reducing teen birth rates in the United States, the National Campaign to Prevent Teen and Unplanned Pregnancy created a program dubbed Stay Teen with ongoing resources, communications and games designed to make sex education and birth control awareness fun and engaging.",
@@ -58,12 +81,15 @@
       ],
       "awards": [
       ],
-      "technology": "ES6, Phaser, React, and Stylus"
+      "technology": "ES6, Phaser, React and Stylus"
     }, {
       "title": "Front &amp; Central",
       "client": "Discovery Education",
       "images": [
-        "img/work-discovery-001.jpg"
+        {
+          "slide": "img/work-discovery-001.jpg",
+          "thumbnail": "img/work-discovery-001-thb.jpg"
+        }
       ],
       "description": [
         "Discovery Education, the education-focused subsidiary of parent Discovery Communications, sought to grow their market presence in the education sector. As the global leader in standards-based digital content for K-12 classrooms, they are at the forefront of education technology. To position itself as a pioneering thought leader, Discovery Education sought to provide a digital platform that serves as a go-to source of relevant, useful and exciting content about education solutions.",
@@ -71,15 +97,24 @@
       ],
       "awards": [
       ],
-      "technology": "Wordpress, PHP, Bedrock, Sage, Blade, and Stylus"
+      "technology": "Wordpress, PHP, Bedrock, Sage, Blade and Stylus"
     }, {
       "title": "&ldquo;I Want to be Recycled&rdquo; campaign website",
       "client": "Keep America Beautiful &amp; the Ad Council",
       "images": [
-        "img/work-recycling-001.jpg",
-        "img/work-recycling-002.jpg",
-        "img/work-recycling-003.jpg",
-        "img/work-recycling-004.jpg"
+        {
+          "slide": "img/work-recycling-001.jpg",
+          "thumbnail": "img/work-recycling-001-thb.jpg"
+        }, {
+          "slide": "img/work-recycling-002.jpg",
+          "thumbnail": "img/work-recycling-002-thb.jpg"
+        }, {
+          "slide": "img/work-recycling-003.jpg",
+          "thumbnail": "img/work-recycling-003-thb.jpg"
+        }, {
+          "slide": "img/work-recycling-004.jpg",
+          "thumbnail": "img/work-recycling-004-thb.jpg"
+        }
       ],
       "description": [
         "As part of a fully integrated campaign, <a href='http://iwanttoberecycled.org/' target='_blank'>IWantToBeRecycled.org</a> empowers consumers to learn about the benefits of recycling and take action to &ldquo;give trash a new life.&rdquo; The site features highly interactive engagement tools, including a recycling search tool that lets users find recycling centers and resources based on their location, and an animated infographic dubbed &ldquo;The Recycling Journey&rdquo; that outlines the path of a material to its brand-new form. Created by SJ&amp;P, the site is responsive to tablets and mobile devices, built using bleeding edge web platforms through HTML5, CSS3 and JavaScript. In 2011, the average American produced 4.4 pounds of trash per day, and the country as a whole produced more than 250 million tons of trash that year. Only about 35 percent of this trash was recycled, according to the EPA. As part of an effort to help educate the public on recycling, this landmark campaign was also featured in The New York Times (print and online). The creative was also recognized for two 2013 Silver W3 Awards, as well as the 2014 Pixel Award in the Green category and People’s Champ Award in the same category."
@@ -91,7 +126,7 @@
         "2013 <strong>&ldquo;People&rsquo;s Champ&rdquo; Pixel Award:</strong> Green Category",
         "2014 <strong>Gold AAF ADDY Award:</strong> Digital Advertising"
       ],
-      "technology": "Ruby, Sinatra, CoffeeScript, Haml, and Sass"
+      "technology": "Ruby, Sinatra, CoffeeScript, Haml and Sass"
     }
   ]
 }
