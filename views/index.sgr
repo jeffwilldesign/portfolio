@@ -30,7 +30,7 @@ extends(src='layout.sgr')
         li
           | Source control in a team environment using Git
         li
-          | Command line development tools (Gulp, Yarn, npm, grep to name only a few)
+          | Command line development tools (npm, Gulp, Yarn, Git, grep to name only a few)
 
     section.work
       h2 Work
