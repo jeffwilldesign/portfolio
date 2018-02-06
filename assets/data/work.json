@@ -13,21 +13,14 @@
         "The redesigned site places heavy emphasis on educational content and vibrant imagery granting the user an investment in protecting U.S. wildlands, while also modernizing Smokey Bear. From an educational standpoint, the new site features resources that affirm facts on wildfire prevention and safety as well as the benefits of prescribed fires by professionals.",
         "Focusing on a wide-ranging audience of kids, parents, educators and outdoor enthusiasts, content is depicted through infographics and images simple enough for youth to comprehend, yet advanced enough to interest adults. Also another inherent-yet-often-overlooked nuance of the site is ensuring it meets accessibility requirements so users who may need special assistance can still engage.",
         "Every page and piece of information on the site is now easy to share, boosting the message and has a mobile-first strategic focus, eliminating any barriers to the user experience regardless of technology platform. Additionally, the new site moves away from depreciated technologies, such as Flash to render content, establishing a JavaScript standard to ensure scalability and flexibility as Smokey forges ahead for another 70 years."
-      ]
-    }, {
-      "title": "Level Up: An Epic Swiping Adventure",
-      "client": "The National Campaign to Prevent Teen and Unplanned Pregnancy",
-      "images": [
-        "img/work-level-up-001.jpg",
-        "img/work-level-up-002.jpg",
-        "img/work-level-up-003.jpg"
       ],
-      "description": [
-        "As part of their work in reducing teen birth rates in the United States, the National Campaign to Prevent Teen and Unplanned Pregnancy created a program dubbed Stay Teen with ongoing resources, communications and games designed to make sex education and birth control awareness fun and engaging.",
-        "In 2017, Stay Teen dedicated an entire month to focus communications around the issue, and SJ&amp;P led the development of its flagship element, a mobile-focused game called Level Up: An Epic Swiping Adventure. The immersive game allows players to create a customized character to represent themselves throughout the experience in which the levels mimic the cadence of a school year, along with customizing their personal crush.",
-        "The gameplay is designed to pit the players against all of the pressures and challenges teens face today that could sway their judgement and knowledge about relationships and sex, including drugs and alcohol, peer influence and pressure to have sex. As the pressures advance, users vanquish them by swiping in the appropriate shape on their screen, earning special powers along the way — represented by personified birth control &ldquo;heroes,&rdquo; each with their own educational tips and methods of defeating enemies.",
-        "While the game is optimized for mobile devices, it&rsquo;s also playable on desktops to ensure maximum reach and engagement among its audience."
-      ]
+      "awards": [
+        "2016 <strong>Gold W3 Award:</strong> General Website – Environmental Awareness",
+        "2016 <strong>Gold W3 Award:</strong> General Website – Associations",
+        "2017 <strong>Silver AAF ADDY Award:</strong> Consumer Website",
+        "2017 <strong>Silver AAF ADDY Award:</strong> Branded Content &amp; Entertainment Campaign"
+      ],
+      "technology": "Node.js, Express, ES6, React, Nunjucks, and Stylus"
     }, {
       "title": "Marriott Traveler",
       "client": "Marriott",
@@ -47,7 +40,38 @@
         "2015 <strong>Gold W3 Award:</strong> General Website - Tourism",
         "2015 <strong>Gold W3 Award:</strong> General Website - Publishing",
         "2015 <strong>Silver W3 Award:</strong> General Website - Travel"
-      ]
+      ],
+      "technology": "Wordpress, PHP, Roots, Sass, and Bootstrap"
+    }, {
+      "title": "Level Up: An Epic Swiping Adventure",
+      "client": "The National Campaign to Prevent Teen and Unplanned Pregnancy",
+      "images": [
+        "img/work-level-up-001.jpg",
+        "img/work-level-up-002.jpg",
+        "img/work-level-up-003.jpg"
+      ],
+      "description": [
+        "As part of their work in reducing teen birth rates in the United States, the National Campaign to Prevent Teen and Unplanned Pregnancy created a program dubbed Stay Teen with ongoing resources, communications and games designed to make sex education and birth control awareness fun and engaging.",
+        "In 2017, Stay Teen dedicated an entire month to focus communications around the issue, and SJ&amp;P led the development of its flagship element, a mobile-focused game called Level Up: An Epic Swiping Adventure. The immersive game allows players to create a customized character to represent themselves throughout the experience in which the levels mimic the cadence of a school year, along with customizing their personal crush.",
+        "The gameplay is designed to pit the players against all of the pressures and challenges teens face today that could sway their judgement and knowledge about relationships and sex, including drugs and alcohol, peer influence and pressure to have sex. As the pressures advance, users vanquish them by swiping in the appropriate shape on their screen, earning special powers along the way — represented by personified birth control &ldquo;heroes,&rdquo; each with their own educational tips and methods of defeating enemies.",
+        "While the game is optimized for mobile devices, it&rsquo;s also playable on desktops to ensure maximum reach and engagement among its audience."
+      ],
+      "awards": [
+      ],
+      "technology": "ES6, Phaser, React, and Stylus"
+    }, {
+      "title": "Front &amp; Central",
+      "client": "Discovery Education",
+      "images": [
+        "img/work-discovery-001.jpg"
+      ],
+      "description": [
+        "Discovery Education, the education-focused subsidiary of parent Discovery Communications, sought to grow their market presence in the education sector. As the global leader in standards-based digital content for K-12 classrooms, they are at the forefront of education technology. To position itself as a pioneering thought leader, Discovery Education sought to provide a digital platform that serves as a go-to source of relevant, useful and exciting content about education solutions.",
+        "SJ&amp;P developed a content hub, featuring engaging and valuable content centered around solutions, trends and best practices, alongside emotional content that inspires and entertains, serving as an extension of what Discovery Education is truly about. The content hub was thoughtfully designed with a look and feel that is unique from the DiscoveryEducation.com website in order to differentiate the two to position the content hub as an accurate information source. The design elements are bold, with delightful animations to give the site a playful and modern feel. We also carefully integrated conversion touchpoints in a way that is valuable to users versus an overt sell."
+      ],
+      "awards": [
+      ],
+      "technology": "Wordpress, PHP, Bedrock, Sage, Blade, and Stylus"
     }, {
       "title": "&ldquo;I Want to be Recycled&rdquo; campaign website",
       "client": "Keep America Beautiful &amp; the Ad Council",
@@ -66,7 +90,8 @@
         "2013 <strong>&ldquo;Green&rdquo; Pixel Award</strong>",
         "2013 <strong>&ldquo;People&rsquo;s Champ&rdquo; Pixel Award:</strong> Green Category",
         "2014 <strong>Gold AAF ADDY Award:</strong> Digital Advertising"
-      ]
+      ],
+      "technology": "Ruby, Sinatra, CoffeeScript, Haml, and Sass"
     }
   ]
 }

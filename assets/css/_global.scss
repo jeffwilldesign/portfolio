@@ -13,6 +13,7 @@ $color-text-neutral:    #5c4b51;
 $color-text-bright:     #f06060;
 
 $mobile-breakpoint: 600px;
+$large-screen-breakpoint: 960px;
 
 body {
   color: $color-text-neutral;
@@ -197,7 +198,8 @@ a {
 }
 
 .skills,
-.work {
+.work,
+.brands {
   width: 84%;
   max-width: 1080px;
   margin: 60px auto;
@@ -276,6 +278,72 @@ a {
     @media (min-width: $mobile-breakpoint) {
       padding-left: 3em;
       padding-right: 3em;
+    }
+  }
+}
+
+.brands {
+  margin-top: 60px;
+  border-top: 3px solid $color-secondary;
+  padding-top: 60px;
+
+  h3 {
+    color: $color-text-light;
+    font-size: 1.75em;
+    font-weight: 300;
+    margin-top: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 -16px;
+  }
+
+  li {
+    display: inline-block;
+    flex: 1 0 33.3%;
+    text-align: center;
+    padding: 16px;
+    margin-left: 0;
+
+    @media (min-width: $mobile-breakpoint) {
+      flex-basis: 25%;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+
+    @media (min-width: $large-screen-breakpoint) {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    img {
+      position: relative;
+      top: 50%;
+      max-width: 100%;
+      transform: translateY(-50%);
+    }
+
+    &.logo-medium img {
+      max-width: 85%;
+      max-height: 85%;
+    }
+
+    &.logo-heavy img {
+      max-width: 75%;
+      max-height: 75%;
+
+      @media (min-width: $mobile-breakpoint) {
+        max-height: 100%;
+      }
+    }
+
+    &.logo-extra-heavy img {
+      max-width: 70%;
+      max-height: 70%;
     }
   }
 }

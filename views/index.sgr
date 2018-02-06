@@ -55,6 +55,44 @@ extends(src='layout.sgr')
               each(loop="paragraph of project.description")
                 p {{{ paragraph }}}
 
+              h4 Awards
+              ul
+                each(loop="award of project.awards")
+                  li {{{ award }}}
+
+              h4 Built With
+              p.technology
+                strong
+                  |  {{ project.technology }}
+
+    section.brands
+      h3 Brands I’ve worked with
+      ul
+        li
+          img(src='img/logos/logo-discovery.png' alt='Discovery logo')
+        li
+          img(src='img/logos/logo-marriott.png' alt='Marriott logo')
+        li.logo-extra-heavy
+          img(src='img/logos/logo-ad-council.png' alt='Ad Council logo')
+        li.logo-medium
+          img(src='img/logos/logo-stayteen.png' alt='Stay Teen logo')
+        li
+          img(src='img/logos/logo-disney.png' alt='Disney logo')
+        li.logo-heavy
+          img(src='img/logos/logo-hbo.png' alt='HBO logo')
+        li.logo-heavy
+          img(src='img/logos/logo-paramount.png' alt='Paramount logo')
+        li.logo-heavy
+          img(src='img/logos/logo-sony.png' alt='Sony logo')
+        li
+          img(src='img/logos/logo-universal.png' alt='Universal logo')
+        li
+          img(src='img/logos/logo-axe.png' alt='Axe logo')
+        li.logo-medium
+          img(src='img/logos/logo-nba.png' alt='NBA logo')
+        li
+          img(src='img/logos/logo-pepsi.png' alt='Pepsi logo')
+
     footer
       .inner-content
         ul.social-links
