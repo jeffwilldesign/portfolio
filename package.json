@@ -8,16 +8,16 @@
   },
   "bugs": "https://github.com/jeffwilldesign/portfolio-of-jeff-will/issues",
   "dependencies": {
-    "browserslist": "^2.11.3",
+    "browserslist": "^3.2.7",
     "lory.js": "^2.3.4",
     "lost": "^8.2.0",
     "node-sass": "^4.7.2",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.0",
     "postcss-scss": "^1.0.3",
     "reshape-standard": "^3.0.0",
-    "sass-loader": "^6.0.6",
+    "sass-loader": "^7.0.1",
     "spike": "^2.0.0",
-    "spike-css-standards": "^3.0.0",
+    "spike-css-standards": "^4.0.0",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
     "spike-page-id": "^1.0.0",
@@ -25,10 +25,10 @@
     "sugarml": "^0.6.0"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.25.0",
     "rimraf": "^2.6.1",
     "snazzy": "^7.1.1",
-    "standard": "^10.0.2"
+    "standard": "^11.0.1"
   },
   "browserslist": [
     "> 1%",
