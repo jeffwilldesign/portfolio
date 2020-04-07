@@ -24,9 +24,11 @@ extends(src='layout.sgr')
         li
           | JavaScript and CSS animation techniques
         li
+          | JavaScript frameworks - Vue.js and React
+        li
           | Node.js, Ruby, PHP, and SQL
         li
-          | Open-source CMSes especially Wordpress
+          | Open-source CMSes - WordPress in particular
         li
           | Source control in a team environment using Git
         li
