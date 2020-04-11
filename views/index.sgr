@@ -111,4 +111,4 @@ extends(src='layout.sgr')
             | Site crafted with
             i.fas.fa-heart
             | and Spike in RVA
-          span &copy; 2018 Jeff Will
+          span &copy; 2020 Jeff Will

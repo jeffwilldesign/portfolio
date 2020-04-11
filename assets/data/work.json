@@ -1,6 +1,48 @@
 {
   "projects": [
     {
+      "title": "Sedona Taphouse website",
+      "client": "Sedona Taphouse",
+      "images": [
+        {
+          "slide": "img/work-sedona-001.jpg",
+          "thumbnail": "img/work-sedona-001-thb.jpg"
+        }, {
+          "slide": "img/work-sedona-002.jpg",
+          "thumbnail": "img/work-sedona-002-thb.jpg"
+        }, {
+          "slide": "img/work-sedona-003.jpg",
+          "thumbnail": "img/work-sedona-003-thb.jpg"
+        }
+      ],
+      "description": [
+        "WordPress redesign"
+      ],
+      "awards": [
+      ],
+      "technology": "WordPress, PHP, ES6 and Sass"
+    }, {
+      "title": "Seniors Guide website",
+      "client": "Ross Publishing",
+      "images": [
+        {
+          "slide": "img/work-seniorsguide-001.jpg",
+          "thumbnail": "img/work-seniorsguide-001-thb.jpg"
+        }, {
+          "slide": "img/work-seniorsguide-002.jpg",
+          "thumbnail": "img/work-seniorsguide-002-thb.jpg"
+        }, {
+          "slide": "img/work-seniorsguide-003.jpg",
+          "thumbnail": "img/work-seniorsguide-003-thb.jpg"
+        }
+      ],
+      "description": [
+        "WordPress redesign"
+      ],
+      "awards": [
+      ],
+      "technology": "WordPress, PHP, Sage, Blade, ES6, Vue.js, Sass and Bootstrap"
+    }, {
       "title": "Smokey Bear website",
       "client": "USDA Forest Service &amp; the Ad Council",
       "images": [
@@ -56,7 +98,7 @@
         "2015 <strong>Gold W3 Award:</strong> General Website - Publishing",
         "2015 <strong>Silver W3 Award:</strong> General Website - Travel"
       ],
-      "technology": "Wordpress, PHP, Roots, Sass and Bootstrap"
+      "technology": "WordPress, PHP, Roots, Sass and Bootstrap"
     }, {
       "title": "Level Up: An Epic Swiping Adventure",
       "client": "The National Campaign to Prevent Teen and Unplanned Pregnancy",
@@ -88,6 +130,12 @@
         {
           "slide": "img/work-discovery-001.jpg",
           "thumbnail": "img/work-discovery-001-thb.jpg"
+        }, {
+          "slide": "img/work-discovery-002.jpg",
+          "thumbnail": "img/work-discovery-002-thb.jpg"
+        }, {
+          "slide": "img/work-discovery-003.jpg",
+          "thumbnail": "img/work-discovery-003-thb.jpg"
         }
       ],
       "description": [
@@ -96,7 +144,7 @@
       ],
       "awards": [
       ],
-      "technology": "Wordpress, PHP, Bedrock, Sage, Blade and Stylus"
+      "technology": "WordPress, PHP, Bedrock, Sage, Blade and Stylus"
     }, {
       "title": "&ldquo;I Want to be Recycled&rdquo; campaign website",
       "client": "Keep America Beautiful &amp; the Ad Council",
