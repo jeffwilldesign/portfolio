@@ -6,12 +6,15 @@
       "images": [
         {
           "slide": "img/work-sedona-001.jpg",
+          "slidewp": "img/work-sedona-001.webp",
           "thumbnail": "img/work-sedona-001-thb.jpg"
         }, {
           "slide": "img/work-sedona-002.jpg",
+          "slidewp": "img/work-sedona-002.webp",
           "thumbnail": "img/work-sedona-002-thb.jpg"
         }, {
           "slide": "img/work-sedona-003.jpg",
+          "slidewp": "img/work-sedona-003.webp",
           "thumbnail": "img/work-sedona-003-thb.jpg"
         }
       ],
@@ -27,12 +30,15 @@
       "images": [
         {
           "slide": "img/work-seniorsguide-001.jpg",
+          "slidewp": "img/work-seniorsguide-001.webp",
           "thumbnail": "img/work-seniorsguide-001-thb.jpg"
         }, {
           "slide": "img/work-seniorsguide-002.jpg",
+          "slidewp": "img/work-seniorsguide-002.webp",
           "thumbnail": "img/work-seniorsguide-002-thb.jpg"
         }, {
           "slide": "img/work-seniorsguide-003.jpg",
+          "slidewp": "img/work-seniorsguide-003.webp",
           "thumbnail": "img/work-seniorsguide-003-thb.jpg"
         }
       ],
@@ -48,12 +54,15 @@
       "images": [
         {
           "slide": "img/work-smokey-001.jpg",
+          "slidewp": "img/work-smokey-001.webp",
           "thumbnail": "img/work-smokey-001-thb.jpg"
         }, {
           "slide": "img/work-smokey-002.jpg",
+          "slidewp": "img/work-smokey-002.webp",
           "thumbnail": "img/work-smokey-002-thb.jpg"
         }, {
           "slide": "img/work-smokey-003.jpg",
+          "slidewp": "img/work-smokey-003.webp",
           "thumbnail": "img/work-smokey-003-thb.jpg"
         }
       ],
@@ -75,15 +84,19 @@
       "images": [
         {
           "slide": "img/work-traveler-001.jpg",
+          "slidewp": "img/work-traveler-001.webp",
           "thumbnail": "img/work-traveler-001-thb.jpg"
         }, {
           "slide": "img/work-traveler-002.jpg",
+          "slidewp": "img/work-traveler-002.webp",
           "thumbnail": "img/work-traveler-002-thb.jpg"
         }, {
           "slide": "img/work-traveler-003.jpg",
+          "slidewp": "img/work-traveler-003.webp",
           "thumbnail": "img/work-traveler-003-thb.jpg"
         }, {
           "slide": "img/work-traveler-004.jpg",
+          "slidewp": "img/work-traveler-004.webp",
           "thumbnail": "img/work-traveler-004-thb.jpg"
         }
       ],
@@ -105,12 +118,15 @@
       "images": [
         {
           "slide": "img/work-level-up-001.jpg",
+          "slidewp": "img/work-level-up-001.webp",
           "thumbnail": "img/work-level-up-001-thb.jpg"
         }, {
           "slide": "img/work-level-up-002.jpg",
+          "slidewp": "img/work-level-up-002.webp",
           "thumbnail": "img/work-level-up-002-thb.jpg"
         }, {
           "slide": "img/work-level-up-003.jpg",
+          "slidewp": "img/work-level-up-003.webp",
           "thumbnail": "img/work-level-up-003-thb.jpg"
         }
       ],
@@ -129,12 +145,15 @@
       "images": [
         {
           "slide": "img/work-discovery-001.jpg",
+          "slidewp": "img/work-discovery-001.webp",
           "thumbnail": "img/work-discovery-001-thb.jpg"
         }, {
           "slide": "img/work-discovery-002.jpg",
+          "slidewp": "img/work-discovery-002.webp",
           "thumbnail": "img/work-discovery-002-thb.jpg"
         }, {
           "slide": "img/work-discovery-003.jpg",
+          "slidewp": "img/work-discovery-003.webp",
           "thumbnail": "img/work-discovery-003-thb.jpg"
         }
       ],
@@ -151,15 +170,19 @@
       "images": [
         {
           "slide": "img/work-recycling-001.jpg",
+          "slidewp": "img/work-recycling-001.webp",
           "thumbnail": "img/work-recycling-001-thb.jpg"
         }, {
           "slide": "img/work-recycling-002.jpg",
+          "slidewp": "img/work-recycling-002.webp",
           "thumbnail": "img/work-recycling-002-thb.jpg"
         }, {
           "slide": "img/work-recycling-003.jpg",
+          "slidewp": "img/work-recycling-003.webp",
           "thumbnail": "img/work-recycling-003-thb.jpg"
         }, {
           "slide": "img/work-recycling-004.jpg",
+          "slidewp": "img/work-recycling-004.webp",
           "thumbnail": "img/work-recycling-004-thb.jpg"
         }
       ],

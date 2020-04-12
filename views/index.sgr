@@ -45,7 +45,10 @@ extends(src='layout.sgr')
                 ul.slides.js_slides
                   each(loop="image of project.images")
                     li
-                      img(src={{image.slide}})
+                      picture
+                        source(type='image/webp' srcset={{image.slidewp}})
+                        source(type='image/jpeg' srcset={{image.slide}})
+                        img(src={{image.slide}})
 
               span.prev.js_prev
                 i.fas.fa-chevron-left.fa-2x
