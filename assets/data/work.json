@@ -43,7 +43,7 @@
         }
       ],
       "description": [
-        "WordPress redesign"
+        "With seniors increasingly using online tools to find information and services, Seniors Guide, a regional magazine and online resource for seniors, saw an opportunity to update their online presence with a refreshed brand and an increased focus on search. Working closely with the strategy team, we created a robust taxonomy to dynamically display relevant services and content throughout the site based on a user’s location. The new taxonomy also provided a foundation for a powerful search experience with a custom API and a responsive front-end application built in Vue.js. Collaborating with the design team, we crafted a completely refreshed design system focused on readability and usability for an audience that often faces challenges navigating sites as content rich as Seniors Guide. Along with the refreshed design system that brought a clean modern look to the site, we also brought modern technologies and coding practices to the project that give Seniors Guide a solid foundation for continued growth of their online presence."
       ],
       "awards": [
       ],
