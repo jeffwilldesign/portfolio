@@ -4378,9 +4378,9 @@ loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lory.js@^2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/lory.js/-/lory.js-2.3.4.tgz#4974abe1b8240ffffe7a388ec4aa7f047e63e0d6"
+lory.js@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/lory.js/-/lory.js-2.5.3.tgz#157d6bcf64105d56b1fdad763940e79912db19b4"
 
 lost@^8.2.0:
   version "8.2.0"
